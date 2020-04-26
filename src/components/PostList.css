@@ -1,0 +1,16 @@
+h1 {
+  padding: 15px;
+  padding-bottom: 0;
+  color: rgb(47, 2, 87);
+}
+
+.article {
+  display: block;
+  margin-top: 30px;
+  border: 20px solid rgba(47, 2, 87, 0.3);
+}
+
+.article__main-info {
+  display: flex;
+  justify-content: space-between;
+}

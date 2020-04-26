@@ -1,0 +1,11 @@
+.article__content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  background-color: rgb(153, 238, 238);
+  padding: 30px;
+}
+
+.article__title {
+  padding-bottom: 15px;
+}

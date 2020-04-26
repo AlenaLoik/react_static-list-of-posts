@@ -1,0 +1,9 @@
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  background-color: antiquewhite;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
