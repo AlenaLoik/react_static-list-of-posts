@@ -8,10 +8,10 @@ export const Comment = ({ name, email, body }) => (
     <p>{name}</p>
     <h4> email: </h4>
     <p>{email}</p>
-    <p className="commet__text">
+    <section className="commet__text">
       <h4> comment: </h4>
       <p>{body}</p>
-    </p>
+    </section>
   </div>
 );
 
