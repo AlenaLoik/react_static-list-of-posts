@@ -6,9 +6,9 @@ export const User = ({ name, email, address }) => (
   <section className="userInfo">
     <h3>about autor:</h3>
     <p><strong>{name}</strong></p>
-    <b>email:</b>
+    <h4>email:</h4>
     <p>{email}</p>
-    <b>adress:</b>
+    <h4>adress:</h4>
     <p>
       {address.street}
       ,

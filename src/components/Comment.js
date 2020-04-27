@@ -4,19 +4,13 @@ import './Comment.css';
 
 export const Comment = ({ name, email, body }) => (
   <div className="comment">
-    <p>
-      <b>name:</b>
-      {' '}
-      {name}
-    </p>
-    <p>
-      <b>email:</b>
-      {' '}
-      {email}
-    </p>
+    <h4>name: </h4>
+    <p>{name}</p>
+    <h4> email: </h4>
+    <p>{email}</p>
     <p className="commet__text">
-      <b>comment:</b>
-      {body}
+      <h4> comment: </h4>
+      <p>{body}</p>
     </p>
   </div>
 );
