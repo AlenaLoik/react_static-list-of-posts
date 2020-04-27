@@ -2,26 +2,28 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './User.css';
 
-export const User = ({ userInfo }) => (
+export const User = ({ name, email, address }) => (
   <section className="userInfo">
     <h3>about autor:</h3>
-    <p><strong>{userInfo.name}</strong></p>
+    <p><strong>{name}</strong></p>
     <b>email:</b>
-    <p>{userInfo.email}</p>
+    <p>{email}</p>
     <b>adress:</b>
     <p>
-      {userInfo.address.street}
+      {address.street}
       ,
       {' '}
       {' '}
-      {userInfo.address.suite}
+      {address.suite}
       ,
       {' '}
-      {userInfo.address.city}
+      {address.city}
     </p>
   </section>
 );
 
 User.propTypes = {
-  userInfo: PropTypes.arrayOf(PropTypes.object).isRequired,
+  name: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+  address: PropTypes.objectOf(PropTypes.object).isRequired,
 };

@@ -19,7 +19,7 @@ const preperedPosts = posts.map(post => (
 
 const App = () => (
   <div className="App">
-    <PostList preperedPosts={preperedPosts} />
+    <PostList posts={preperedPosts} />
   </div>
 );
 
